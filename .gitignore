@@ -1,0 +1,7 @@
+*.vtk
+*.vtu
+*.foam
+*.stl
+*.obj
+*.csv
+*.log
