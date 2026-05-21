@@ -120,7 +120,7 @@ setup_rigidbody(
     mass=0.0,
     friction=config.WALL_FRICTION,
     restitution=config.WALL_RESTITUTION,
-    shape='CONVEX_HULL'
+    shape='MESH'
 )
 
 bpy.context.view_layer.update()
@@ -153,3 +153,4 @@ print("Registering emitter...")
 scene.frame_set(config.FRAME_START)
 
 print("Simulation started.")
+
